@@ -1,0 +1,54 @@
+/* Gaya Umum */
+body { font-family: sans-serif; }
+.container { width: 960px; margin: 0 auto; }
+
+/* Header */
+header { background-color: #0F3AA6; color: white; padding: 1rem 0; }
+.masuk-btn { background-color: #0056b3; color: white; padding: 0.5rem 1rem; border: none; cursor: pointer; }
+.user-info { text-align: right; } 
+.user-info a { color: white; text-decoration: none; margin-left: 10px; }
+
+/* Sidebar */
+.sidebar { float: left; width: 200px; }
+.sidebar ul { list-style: none; padding: 0; }
+.sidebar a { display: block; padding: 1rem; text-decoration: none; color: #333; }
+.sidebar a:hover { background-color: #f0f0f0; }
+
+/* Content */
+.content { float: right; width: calc(100% - 220px); padding: 1rem; }
+
+/* Footer */
+footer { background-color: #333; color: white; text-align: center; padding: 1rem 0; position: fixed; bottom: 0; width: 100%; }
+
+/* Sesuaikan lebar sidebar sesuai kebutuhan */
+#navbarToggleExternalContent {
+    width: 250px; /* atau nilai lain */
+  }
+  
+
+/* Popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 10;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* ... (sama seperti contoh sebelumnya) */

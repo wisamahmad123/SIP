@@ -1,0 +1,73 @@
+h1, h4 {
+    text-align: center;
+}
+
+body {
+  text-align: center;
+  background-image: url('gedung-aa-polinema.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: repeat; 
+  color: white; /* Ensure text is visible on the image */
+}
+
+/* Gaya Navbar */
+.navbar {
+  background-color: #0F3AA6; 
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+  
+.logo img {
+  height: 40px; 
+}
+
+.masuk-btn {
+  background-color: #0F3AA6; 
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.content {
+  text-align: center;
+  padding-top: 100px; /* Add more padding to match the image */
+}
+
+  
+  .popup {
+    display: none; /* Sembunyikan popup secara default */
+    position: fixed; /* Tetap pada posisinya saat di-scroll */
+    top: 10px; /* Jarak dari atas */
+    right: 10px; /* Jarak dari kanan */
+    /* Hapus transform: translate(-50%, -50%); */ 
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 10; 
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Gaya Konten */
+  .content {
+    text-align: center;
+    padding: 50px;
+  }
+  

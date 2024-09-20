@@ -1,0 +1,147 @@
+body {
+    background-color: #0F3AA6;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.logo-form {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100px;
+    height: auto;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #888;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 20px;
+    border: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center; /* Menempatkan tombol di tengah */
+}
+
+button:hover {
+    background-color: #001c3a;
+}
+
+.login-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 60px;
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Menempatkan tombol di tengah */
+    width: 100%;
+}
+
+.form-group i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    padding-left: 40px; /* Memberi ruang untuk ikon */
+}
+
+.form-group input, .form-group textarea {
+    width: calc(100% - 24px);
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.link-container a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.link-container a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer {
+    position: fixed; /* Mengunci posisi elemen di viewport */
+    bottom: 10px; /* Jarak dari bawah */
+    left: 10px; /* Jarak dari kiri */
+    color: white; /* Warna teks (putih agar terlihat di latar belakang biru) */
+  }
+  

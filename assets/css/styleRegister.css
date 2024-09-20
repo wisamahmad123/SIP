@@ -1,0 +1,129 @@
+h1, h4 {
+  text-align: center;
+}
+
+.img_nav{
+  width: 55px;
+  height: 55px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+li a b {
+  display: block;
+  color: yellow;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  padding: 14px;
+}
+
+.left {
+  float: left;
+  font-size: 20px;
+}
+.right {
+  float: right;
+}
+
+hr {
+color: pink;
+}
+
+.content_login{
+display: flex;
+flex-direction: column; 
+background-color: rgb(205, 205, 200);
+width: 600px;
+padding-top: 10px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+margin: 80px auto;
+border-radius: 20px;
+border: 2px solid black;
+}
+.center_log {
+text-align: center;
+}
+
+body {
+margin: 0;
+height: 100vh;
+overflow: auto; 
+position: relative;
+}
+
+body::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: url('gedung-aa-polinema.jpg') no-repeat center center/cover;
+filter: blur(10px);
+z-index: -1;
+}
+.submit_but{
+width: 100%; 
+margin-top: 20px;
+}
+.userName {
+align-items: center;
+padding-bottom: 20px;
+}
+.un_title, .pass_title{
+margin: 0;
+padding-bottom: 5px; 
+}
+.input_user, .input_password{
+width: 100%;
+border-color: black;
+border-radius: 5px;
+color: black;
+}
+.back_but {
+position: absolute;
+margin-left: 90%;
+bottom: 50px;
+padding: 10px 20px;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.back_but_sign {
+  position: absolute;
+  margin-left: 90%;
+  bottom: -100px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.status {
+  width: 100%;
+  height: 35px;
+}

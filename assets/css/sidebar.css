@@ -1,0 +1,19 @@
+.offcanvas {
+    width: 250px; /* Atur lebar sidebar sesuai keinginan */
+}
+
+.logo {
+    width: 30px; /* Atur ukuran logo */
+    height: 30px;
+}
+
+.profil-img {
+    width: 30px; /* Atur ukuran foto profil */
+    height: 30px;
+    object-fit: cover; /* Agar gambar terpotong sesuai bentuk lingkaran */
+}
+
+.offcanvas-header {
+    display: flex; /* Gunakan flexbox untuk mengatur posisi elemen header */
+    align-items: center; /* Ratakan logo, judul, dan tombol close secara vertikal */
+}
